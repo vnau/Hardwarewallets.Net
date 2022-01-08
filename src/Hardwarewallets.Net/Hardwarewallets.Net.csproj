@@ -11,7 +11,7 @@
     <Description>Cross platform, base C# library for all Hardwarewallets. Provides simple interfaces that sit underneath all hardwarewallet libraries, and utilitiy classes that sit over the top all libraries</Description>
     <Copyright>Christian Findlay</Copyright>
     <PackageProjectUrl>https://github.com/vnau/Hardwarewallets.Net</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/MelbourneDeveloper/Hardwarewallets.Net</RepositoryUrl>
+    <RepositoryUrl>https://github.com/vnau/Hardwarewallets.Net</RepositoryUrl>
     <PackageTags>Hardwarewallet Trezor KeepKey Ledger Bitcoin Ethereum</PackageTags>
     <PackageReleaseNotes>First release of interfaces and utility classes for getting addresses</PackageReleaseNotes>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
