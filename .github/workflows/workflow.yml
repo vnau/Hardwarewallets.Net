@@ -37,7 +37,7 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Build and Pack NuGet package
-      run: dotnet pack src/Hardwarewallets.Net/Hardwarewallets.Net.csproj -p:Version='${{ steps.gitversion.outputs.SemVer }}' -c Release
+      run: dotnet build src/Hardwarewallets.Net/Hardwarewallets.Net.csproj -p:Version='${{ steps.gitversion.outputs.SemVer }}' -c Release
     - name: Upload NuGet package to GitHub
       uses: actions/upload-artifact@v2
       with:
